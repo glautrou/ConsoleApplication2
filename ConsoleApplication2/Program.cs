@@ -11,7 +11,7 @@ namespace ConsoleApplication2
         static void Main(string[] args)
         {
             var person = Person.CreateNew("John", "Smith");
-            Console.WriteLine("Hi " + person.GetFullName());
+            Console.WriteLine("=> Hi " + person.GetFullName());
         }
     }
 }
