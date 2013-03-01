@@ -10,6 +10,8 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
+            var person = Person.CreateNew("John", "Smith");
+            Console.WriteLine(person.GetFullName());
         }
     }
 }

@@ -11,9 +11,17 @@ namespace ConsoleApplication2
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public static object CreateNew()
+        public static Person CreateNew(string firstName, string lastName)
         {
-            return null;
+            return new Person { FirstName = firstName, LastName = lastName };
+        }
+
+        /// <summary>
+        /// Get the full name
+        /// </summary>
+        public string GetFullName()
+        {
+            return FirstName + " " + LastName;
         }
     }
 }
