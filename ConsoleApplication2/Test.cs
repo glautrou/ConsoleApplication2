@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication2
 {
-    class Test
+    public class Test
     {
+        public static object CreateNew()
+        {
+            return null;
+        }
     }
 }
