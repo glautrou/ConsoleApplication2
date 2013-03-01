@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication2
 {
-    public class Test
+    public class Person
     {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
         public static object CreateNew()
         {
             return null;
